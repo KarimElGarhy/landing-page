@@ -20,11 +20,13 @@ export default function RootLayout({
       <body className={inter.className}>
         {/* Navbar */}
         <div className="shadow-lg">
-          <div className="container mx-auto h-24">
+          <div className="container mx-auto h-24 px-2">
             <Navbar />
           </div>
         </div>
-        <div className="container">{children}</div>
+        <div className="">
+          <div className="container mx-auto px-2 lg:px-24 ">{children}</div>
+        </div>
       </body>
     </html>
   )

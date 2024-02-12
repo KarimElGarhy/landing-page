@@ -11,6 +11,8 @@ const linkList: link[] = [
   { title: "Blog", url: "" },
 ]
 import logo from "@/public/logo.svg"
+import PrimaryButton from "./PrimaryButton"
+import SecondaryButton from "./SecondaryButton"
 function Navbar() {
   const [opened, setOpened] = useState(false)
   return (
@@ -35,18 +37,8 @@ function Navbar() {
       </div>
       {/* Buttons */}
       <div className="flex gap-x-5 items-center">
-        <Link
-          className="hover:ring-1 hover:ring-blue-800 hover:ring-offset-2 duration-300 rounded px-4 md:text-lg text-sm py-2 capitalize bg-blue-800 text-white"
-          href=""
-        >
-          Login
-        </Link>
-        <Link
-          className="hover:ring-1 hover:ring-pink-600 hover:ring-offset-2 duration-300 rounded px-4 md:text-lg text-sm py-2 capitalize bg-pink-600 text-white"
-          href=""
-        >
-          Sign Up
-        </Link>
+        <PrimaryButton text="Login" url="" />
+        <SecondaryButton text="Sign Up" url="" />
         {/* menuButton */}
         <div
           className="flex flex-col gap-y-1 md:hidden cursor-pointer z-50"
