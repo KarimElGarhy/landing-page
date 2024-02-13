@@ -6,6 +6,7 @@ import windows from "@/public/windows.svg"
 import manger from "@/public/manager.svg"
 import dance from "@/public/dancing.svg"
 import checkMark from "@/public/checked.svg"
+import heroBanner from "@/public/hero-section.svg"
 
 const allMedia = {
   emilSub,
@@ -16,6 +17,7 @@ const allMedia = {
   manger,
   dance,
   checkMark,
+  heroBanner,
 }
 
 export default allMedia

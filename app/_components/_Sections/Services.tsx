@@ -1,7 +1,7 @@
 import React from "react"
-import ServicesCard from "./ServicesCard"
-import allMedia from "../_lib/images"
-import SectionTitle from "./SectionTitle"
+import ServicesCard from "../ServicesCard"
+import allMedia from "../../_lib/images"
+import SectionTitle from "../SectionTitle"
 function Services() {
   return (
     <div className="text-center">

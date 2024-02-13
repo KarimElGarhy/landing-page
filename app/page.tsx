@@ -1,6 +1,7 @@
-import CustomerServices from "./_components/CustomerServices"
-import Hero from "./_components/Hero"
-import Services from "./_components/Services"
+import CustomerServices from "./_components/_Sections/CustomerServices"
+import Hero from "./_components/_Sections/Hero"
+import PriceTable from "./_components/_Sections/PriceTable"
+import Services from "./_components/_Sections/Services"
 export default function Home() {
   return (
     <div>
@@ -10,6 +11,8 @@ export default function Home() {
       <Services />
       {/* Customer Services */}
       <CustomerServices />
+      {/* Price Table */}
+      <PriceTable />
     </div>
   )
 }

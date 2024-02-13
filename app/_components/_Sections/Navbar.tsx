@@ -11,8 +11,8 @@ const linkList: link[] = [
   { title: "Blog", url: "" },
 ]
 import logo from "@/public/logo.svg"
-import PrimaryButton from "./PrimaryButton"
-import SecondaryButton from "./SecondaryButton"
+import PrimaryButton from "../PrimaryButton"
+import SecondaryButton from "../SecondaryButton"
 function Navbar() {
   const [opened, setOpened] = useState(false)
   return (

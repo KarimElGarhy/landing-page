@@ -1,10 +1,10 @@
 import Image from "next/image"
 import Link from "next/link"
 import React from "react"
-import heroBanner from "@/public/hero-section.svg"
-import PrimaryButton from "./PrimaryButton"
-import SecondaryButton from "./SecondaryButton"
-import SectionHeading from "./SectionHeading"
+import PrimaryButton from "../PrimaryButton"
+import SecondaryButton from "../SecondaryButton"
+import SectionHeading from "../SectionHeading"
+import allMedia from "@/app/_lib/images"
 
 function Hero() {
   return (
@@ -26,7 +26,12 @@ function Hero() {
       </div>
       {/* Image */}
       <div className="w-1/3 ">
-        <Image src={heroBanner} alt="Hero Banner" width={600} height={600} />
+        <Image
+          src={allMedia.heroBanner}
+          alt="Hero Banner"
+          width={600}
+          height={600}
+        />
       </div>
     </div>
   )

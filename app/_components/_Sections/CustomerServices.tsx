@@ -1,7 +1,7 @@
 import Image from "next/image"
 import React from "react"
-import allMedia from "../_lib/images"
-import SectionHeading from "./SectionHeading"
+import allMedia from "../../_lib/images"
+import SectionHeading from "../SectionHeading"
 const customerList = [
   { title: "medical and vision" },
   { title: "life insurance" },
