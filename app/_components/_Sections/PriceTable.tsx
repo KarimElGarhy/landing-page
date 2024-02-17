@@ -19,7 +19,7 @@ function PriceTable() {
       {/* First tables Container */}
       <div className="flex items-center justify-between w-[80%]">
         {/* First table */}
-        <div className="bg-black/10 w-2/6 pb-8 flex flex-col justify-center hover:scale-105 duration-300  overflow-hidden shadow-lg">
+        <div className="bg-black/10 w-2/6 pb-8 flex flex-col justify-center  shadow-lg">
           {/* Table Head */}
           <div className="p-10  bg-red-800 text-xl font-mono text-white rounded-t-lg  capitalize ">
             <h3>Starter</h3>
@@ -41,7 +41,7 @@ function PriceTable() {
           </div>
         </div>
         {/* Second table */}
-        <div className="bg-black/10 text-xl w-2/6 pb-8 flex flex-col justify-center  hover:scale-105 duration-300 overflow-hidden z-40 shadow-lg">
+        <div className="bg-black/10 text-xl w-2/6 pb-8 flex flex-col justify-center  z-40 shadow-lg">
           {/* Table Head */}
           <div className="p-10  bg-green-800 text-xl font-mono text-white rounded-t-lg  capitalize ">
             <h3>Starter</h3>
@@ -63,7 +63,7 @@ function PriceTable() {
           </div>
         </div>
         {/* Third table */}
-        <div className="bg-black/10 w-2/6 pb-8 flex shadow-lg flex-col justify-center hover:scale-105 duration-300  overflow-hidden">
+        <div className="bg-black/10 w-2/6 pb-8 flex shadow-lg flex-col justify-center ">
           {/* Table Head */}
           <div className="p-10  bg-yellow-800 text-xl font-mono text-white rounded-t-lg  capitalize ">
             <h3>Starter</h3>

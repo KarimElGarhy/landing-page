@@ -7,6 +7,7 @@ import manger from "@/public/manager.svg"
 import dance from "@/public/dancing.svg"
 import checkMark from "@/public/checked.svg"
 import heroBanner from "@/public/hero-section.svg"
+import loving from "@/public/loving.svg"
 
 const allMedia = {
   emilSub,
@@ -18,6 +19,7 @@ const allMedia = {
   dance,
   checkMark,
   heroBanner,
+  loving,
 }
 
 export default allMedia
